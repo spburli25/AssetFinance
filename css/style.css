@@ -10,6 +10,7 @@ body {
   padding: 22px;
   margin-top: 25px !important;
   margin-bottom: 25px !important;
+
 }
 
 .breadColor{
@@ -128,4 +129,9 @@ body {
 #footerAsset{
   background-color: #006a4d;
 
+}
+
+li: before {
+    content: "• ";
+    color: green; /* or whatever color you prefer */
 }

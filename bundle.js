@@ -34770,7 +34770,7 @@
 
 	var _navbar2 = _interopRequireDefault(_navbar);
 
-	var _footer = __webpack_require__(458);
+	var _footer = __webpack_require__(461);
 
 	var _footer2 = _interopRequireDefault(_footer);
 
@@ -34888,7 +34888,7 @@
 	        key: 'render',
 	        value: function render() {
 
-	            var LBGLogo = "../img/logo.jpg";
+	            var LBGLogo = "../img/Bank2.png";
 	            var styles = {
 	                tabColor: { backgroundColor: _colors.teal900 },
 	                smallIcon: {
@@ -39545,6 +39545,10 @@
 
 	var _afcomponent2 = _interopRequireDefault(_afcomponent);
 
+	var _caf = __webpack_require__(460);
+
+	var _caf2 = _interopRequireDefault(_caf);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -39612,18 +39616,7 @@
 	          _react2.default.createElement(
 	            'div',
 	            null,
-	            _react2.default.createElement(
-	              'h2',
-	              { style: styles.headline },
-	              'Corporate Finance'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Corporate Asset Finance helps support your business objectives. We focus on delivering solutions to £100m+ turnover customers, with dedicated teams to support Global Corporates and Mid Market customers requiring asset funding solutions of £250,000 and above.'
-	            ),
-	            _react2.default.createElement('br', null),
-	            _react2.default.createElement('br', null)
+	            _react2.default.createElement(_caf2.default, null)
 	          )
 	        )
 	      );
@@ -40424,6 +40417,14 @@
 
 	var _colors = __webpack_require__(295);
 
+	var _turnover = __webpack_require__(458);
+
+	var _turnover2 = _interopRequireDefault(_turnover);
+
+	var _turnover3 = __webpack_require__(459);
+
+	var _turnover4 = _interopRequireDefault(_turnover3);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -40501,19 +40502,8 @@
 	          { label: '£0-£1m turnover ', value: 'b', style: styles.tabColor },
 	          _react2.default.createElement(
 	            'div',
-	            null,
-	            _react2.default.createElement(
-	              'h2',
-	              { style: styles.headline },
-	              'Asset Finance'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Asset finance is a way to purchase assets without taking out a conventional loan. It allows you to spread payments over an agreed term and so avoid making big one-off payments for the extra machinery or equipment your business might need to grow.'
-	            ),
-	            _react2.default.createElement('br', null),
-	            _react2.default.createElement('br', null)
+	            { className: 'container' },
+	            _react2.default.createElement(_turnover2.default, { title: '£0-£1m turnover', amount: '50,000', idx: '1' })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -40521,19 +40511,8 @@
 	          { label: '£1m-£25m turnover', value: 'c', style: styles.tabColor },
 	          _react2.default.createElement(
 	            'div',
-	            null,
-	            _react2.default.createElement(
-	              'h2',
-	              { style: styles.headline },
-	              'Asset Finance'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Corporate Asset Finance helps support your business objectives. We focus on delivering solutions to £100m+ turnover customers, with dedicated teams to support Global Corporates and Mid Market customers requiring asset funding solutions of £250,000 and above.'
-	            ),
-	            _react2.default.createElement('br', null),
-	            _react2.default.createElement('br', null)
+	            { className: 'container' },
+	            _react2.default.createElement(_turnover2.default, { title: '£1m-£25m turnover', amount: '100,000', idx: '2' })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -40541,19 +40520,8 @@
 	          { label: '£25m+ turnover', value: 'd', style: styles.tabColor },
 	          _react2.default.createElement(
 	            'div',
-	            null,
-	            _react2.default.createElement(
-	              'h2',
-	              { style: styles.headline },
-	              'Asset Finance'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Corporate Asset Finance helps support your business objectives. We focus on delivering solutions to £100m+ turnover customers, with dedicated teams to support Global Corporates and Mid Market customers requiring asset funding solutions of £250,000 and above.'
-	            ),
-	            _react2.default.createElement('br', null),
-	            _react2.default.createElement('br', null)
+	            { className: 'container' },
+	            _react2.default.createElement(_turnover4.default, { title: '£25m+ turnover' })
 	          )
 	        )
 	      );
@@ -40567,6 +40535,1243 @@
 
 /***/ },
 /* 458 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _colors = __webpack_require__(295);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Turnover = function (_React$Component) {
+	  _inherits(Turnover, _React$Component);
+
+	  function Turnover() {
+	    _classCallCheck(this, Turnover);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Turnover).apply(this, arguments));
+	  }
+
+	  _createClass(Turnover, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Asset Finance ',
+	          _react2.default.createElement(
+	            'span',
+	            null,
+	            this.props.title
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'Asset finance is a way to purchase assets without taking out a conventional loan. It allows you to spread payments over an agreed term and so avoid making big one-off payments for the extra machinery or equipment your business might need to grow.'
+	        ),
+	        _react2.default.createElement(
+	          'h2',
+	          null,
+	          'Features and benefits'
+	        ),
+	        _react2.default.createElement(
+	          'ul',
+	          { style: { listStyleType: "square", paddingLeft: "15px" } },
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Funding for all types of assets from farm vehicles to plant and office equipment.'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Competitive interest rates.'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Response to funding requests within 24 hours.'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'A fast and efficient phone-based service.'
+	          ),
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Hire Purchase'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Straightforward financing and asset ownership.'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Spread the asset cost over an agreed term, followed by a one-off purchase option fee which transfers ownership to you at the end of the term.'
+	          ),
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Finance Lease'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Immediate use of new assets with minimal initial financial outlay.'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Rental payments over an agreed term without the responsibility of ownership.'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Flexibility of initial deposit amount and period of funding.'
+	          ),
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Assets funded include:'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'new and used cars'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'light commercial vehicles'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'heavy goods vehicles'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'buses and coaches'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'printing machinery'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'construction equipment'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'engineering machinery'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'office equipment.'
+	          ),
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
+	            'h4',
+	            null,
+	            'These packages can help healthcare businesses fund surgery equipment such as:'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'dental chairs'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'scanners'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'beds and hoists'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'office equipment.'
+	          ),
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
+	            'h4',
+	            null,
+	            'These packages can help agricultural businesses fund:'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'light and heavy commercial vehicles'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'tractors'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'combine harvesters'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'commercial vehicle trailers'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'all-terrain vehicles'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'other farm equipment.'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'panel-group', id: 'accordion' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-success' },
+	            _react2.default.createElement(
+	              'a',
+	              { 'data-toggle': 'collapse', 'data-parent': '#accordion', href: "#collapse1" + this.props.idx, style: { textDecoration: "none" } },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-heading', style: { backgroundColor: _colors.teal100 } },
+	                _react2.default.createElement(
+	                  'h4',
+	                  { className: 'panel-title' },
+	                  'Is your business eligible?'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { id: "collapse1" + this.props.idx, className: 'panel-collapse collapse' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-body' },
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'To apply for Asset Finance, you should:'
+	                ),
+	                _react2.default.createElement(
+	                  'ul',
+	                  { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'achieve sales in excess of £ ',
+	                    _react2.default.createElement(
+	                      'span',
+	                      null,
+	                      this.props.amount
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'require the finance for business use'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'be a sole trader, partner or director with authority to borrow on behalf of your business'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'be aged 18 or over.'
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Before we can help you, we need to know:'
+	                ),
+	                _react2.default.createElement(
+	                  'ul',
+	                  { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'how much you would like to borrow'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'what you need the finance for'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'how many months you would like to make the repayments over.'
+	                  )
+	                )
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-success' },
+	            _react2.default.createElement(
+	              'a',
+	              { 'data-toggle': 'collapse', 'data-parent': '#accordion', href: "#collapse2" + this.props.idx, style: { textDecoration: "none" } },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-heading', style: { backgroundColor: _colors.teal100 } },
+	                _react2.default.createElement(
+	                  'h4',
+	                  { className: 'panel-title' },
+	                  'Important information'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { id: "collapse2" + this.props.idx, className: 'panel-collapse collapse' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-body' },
+	                'Easy-to-follow figures so you can make comparisons.'
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-success' },
+	            _react2.default.createElement(
+	              'a',
+	              { 'data-toggle': 'collapse', 'data-parent': '#accordion', href: "#collapse3" + this.props.idx, style: { textDecoration: "none" } },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-heading', style: { backgroundColor: _colors.teal100 } },
+	                _react2.default.createElement(
+	                  'h4',
+	                  { className: 'panel-title' },
+	                  'How to apply'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { id: "collapse3" + this.props.idx, className: 'panel-collapse collapse' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-body' },
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'On the phone',
+	                  _react2.default.createElement('br', null),
+	                  _react2.default.createElement('br', null),
+	                  _react2.default.createElement(
+	                    'div',
+	                    null,
+	                    _react2.default.createElement('i', { className: 'fa fa-phone' }),
+	                    '+1 555 123456'
+	                  ),
+	                  'Call us to talk to one of our business management team. We are available from 8am to 8pm Monday to Friday.'
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Turnover;
+	}(_react2.default.Component);
+
+	exports.default = Turnover;
+
+/***/ },
+/* 459 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	        value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _colors = __webpack_require__(295);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Turnover = function (_React$Component) {
+	        _inherits(Turnover, _React$Component);
+
+	        function Turnover() {
+	                _classCallCheck(this, Turnover);
+
+	                return _possibleConstructorReturn(this, Object.getPrototypeOf(Turnover).apply(this, arguments));
+	        }
+
+	        _createClass(Turnover, [{
+	                key: 'render',
+	                value: function render() {
+	                        return _react2.default.createElement(
+	                                'div',
+	                                null,
+	                                _react2.default.createElement(
+	                                        'h1',
+	                                        null,
+	                                        'Funding those essential purchases ',
+	                                        _react2.default.createElement(
+	                                                'span',
+	                                                null,
+	                                                this.props.title
+	                                        )
+	                                ),
+	                                _react2.default.createElement(
+	                                        'p',
+	                                        null,
+	                                        'Business success in a competitive landscape means investing in capital assets to stay ahead of the game, but purchases can strain your cashflow and limit your financial headroom.'
+	                                ),
+	                                _react2.default.createElement('br', null),
+	                                _react2.default.createElement(
+	                                        'p',
+	                                        null,
+	                                        'Let Asset Finance help you purchase essential equipment to drive your business forward without tying up your cash.'
+	                                ),
+	                                _react2.default.createElement(
+	                                        'h2',
+	                                        null,
+	                                        'What acquisitions can Asset Finance fund?'
+	                                ),
+	                                _react2.default.createElement(
+	                                        'p',
+	                                        null,
+	                                        'Key growth assets can be acquired for your business through Asset Finance, such as:'
+	                                ),
+	                                _react2.default.createElement('br', null),
+	                                _react2.default.createElement(
+	                                        'ul',
+	                                        { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                'Equipment – whether engineering, office, construction, medical or agricultural'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                'Construction plant and machinery'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                'Heavy goods vehicles'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                'Light commercial vehicles'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                'New and used cars'
+	                                        )
+	                                ),
+	                                _react2.default.createElement(
+	                                        'h2',
+	                                        null,
+	                                        'What benefits can Asset Finance bring to your business?'
+	                                ),
+	                                _react2.default.createElement(
+	                                        'ul',
+	                                        { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                _react2.default.createElement(
+	                                                        'strong',
+	                                                        null,
+	                                                        'Versatility -'
+	                                                ),
+	                                                ' fund purchases of a diverse range of business-essential assets, including vehicles and machinery.'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                _react2.default.createElement(
+	                                                        'strong',
+	                                                        null,
+	                                                        'Smart finance -'
+	                                                ),
+	                                                ' run your business efficiently and manage your budget.'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                _react2.default.createElement(
+	                                                        'strong',
+	                                                        null,
+	                                                        'Prudence -'
+	                                                ),
+	                                                ' avoid paying cash up-front and ease your cashflow with regular payments over an agreed term.'
+	                                        )
+	                                ),
+	                                _react2.default.createElement(
+	                                        'h2',
+	                                        null,
+	                                        'What are my funding options?'
+	                                ),
+	                                _react2.default.createElement(
+	                                        'ul',
+	                                        { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                _react2.default.createElement(
+	                                                        'strong',
+	                                                        null,
+	                                                        'Hire Purchase -'
+	                                                ),
+	                                                ' Businesses looking for straightforward financing and asset ownership should consider Hire Purchase. You benefit from spreading the cost of the asset over an agreed term, followed by a one-off purchase option fee, which transfers ownership to you at the end of the term.'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                _react2.default.createElement(
+	                                                        'strong',
+	                                                        null,
+	                                                        'Finance Lease -'
+	                                                ),
+	                                                ' Businesses looking for immediate use of a new asset but with minimal initial financial outlay should consider a Finance Lease. This allows you to benefit from the full use of the asset for an agreed term without the responsibility of ownership, in return for rental payments.'
+	                                        )
+	                                ),
+	                                _react2.default.createElement(
+	                                        'p',
+	                                        null,
+	                                        'Should your asset need replacing before the term is complete, early settlement is possible and fees may apply.'
+	                                ),
+	                                _react2.default.createElement('br', null),
+	                                _react2.default.createElement(
+	                                        'p',
+	                                        null,
+	                                        'Our funding options are eligible for discounted funding through the Funding for Lending Scheme, as well as flexible funding terms to meet your business needs.'
+	                                ),
+	                                _react2.default.createElement(
+	                                        'h2',
+	                                        null,
+	                                        'Why AF Bank Commercial Finance?'
+	                                ),
+	                                _react2.default.createElement(
+	                                        'ul',
+	                                        { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                'Responsiveness – funding requests turned around in 24 hours.'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                'Affordability – competitive rates of interest and terms.'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                'Flexible – we work with you to determine the period of funding and initial deposit made.'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                'Expertise - a relationship manager dedicated to your needs.'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                                'li',
+	                                                null,
+	                                                'Specialist sector support, across construction, engineering, manufacturing, plant hire, printing transport, business services and professional practices.'
+	                                        )
+	                                ),
+	                                _react2.default.createElement(
+	                                        'p',
+	                                        null,
+	                                        'We’ve been helping fund assets for over 40 years – driving forward business growth. We’ll help you find the funding package that supports your business ambitions.'
+	                                ),
+	                                _react2.default.createElement(
+	                                        'h2',
+	                                        null,
+	                                        'Next steps'
+	                                ),
+	                                _react2.default.createElement(
+	                                        'p',
+	                                        null,
+	                                        'Call us on 0800 169 4356 or visit us at ',
+	                                        _react2.default.createElement(
+	                                                'a',
+	                                                { href: '#' },
+	                                                'www.AFbank.com/commercialfinance'
+	                                        ),
+	                                        ' to learn more about Asset Finance and our other business funding options.'
+	                                )
+	                        );
+	                }
+	        }]);
+
+	        return Turnover;
+	}(_react2.default.Component);
+
+	exports.default = Turnover;
+
+/***/ },
+/* 460 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _colors = __webpack_require__(295);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Turnover = function (_React$Component) {
+	  _inherits(Turnover, _React$Component);
+
+	  function Turnover() {
+	    _classCallCheck(this, Turnover);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Turnover).apply(this, arguments));
+	  }
+
+	  _createClass(Turnover, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'container' },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Corporate Asset Finance'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          _react2.default.createElement(
+	            'h2',
+	            null,
+	            'Specialist support for equipment finance and leasing transactions'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'Corporate Asset Finance helps support your business objectives. We focus on delivering solutions to £100m+ turnover customers, with dedicated teams to support Global Corporates and Mid Market customers requiring asset funding solutions of £250,000 and above.'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'Asset financing instruments are designed to support key financial requirements throughout your company’s financial and equipment life cycle.'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'Our diverse product range means we can deliver individual solutions to allow you to grow your business or improve your company’s cashflow.'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'We have our own in-house asset management team, allowing us to take residual value positions on a wide variety of asset classes.'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'We offer coverage across the UK and support from an internal team of lawyers, taxation consultants, accountants and financial modellers. This ensures you benefit from efficient decision times, responsive collaborative team-work and low deal costs.'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'Asset Finance helps you:'
+	        ),
+	        _react2.default.createElement(
+	          'ul',
+	          { style: { listStyleType: "square", paddingLeft: "15px" } },
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'release locked in value from your business’ fixed assets;'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'obtain an asset for a short- or long-term contract;'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'secure a new asset with minimal initial outlay to preserve cash reserves;'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'provide funding or tax efficient structuring aligned to your business’ specific accounting treatment requirements;'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'access varied sources of funding to avoid using cash reserves or bank credit lines;'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'easily and cost-effectively dispose of, or upgrade, an asset;'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'improve financial ratios and cash forecasting;'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'transfer residual value risk.'
+	          ),
+	          _react2.default.createElement('br', null)
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            'Our services'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'panel-group', id: 'accordion' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-success' },
+	            _react2.default.createElement(
+	              'a',
+	              { 'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collaps1', style: { textDecoration: "none" } },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-heading', style: { backgroundColor: _colors.teal100 } },
+	                _react2.default.createElement(
+	                  'h4',
+	                  { className: 'panel-title' },
+	                  'Funding'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { id: 'collaps1', className: 'panel-collapse collapse' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-body' },
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'We have been funding assets for over 30 years. Our team includes specialists in a diverse range of asset classes including:'
+	                ),
+	                _react2.default.createElement(
+	                  'ul',
+	                  { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'corporate aircraft, helicopters, aircraft engines,'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'oil & gas equipment,'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'food manufacturing,'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'transport assets,'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'medical equipment,'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'materials handling and'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'construction and technology-related assets.'
+	                  )
+	                ),
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Corporate Asset Finance can finance a vast array of business assets including:'
+	                ),
+	                _react2.default.createElement(
+	                  'ul',
+	                  { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Buses / commercial vehicles / refuse vehicles'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Construction equipment / cranes'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Manufacturing / production equipment'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'IT equipment'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Helicopters / corporate jets / commercial aircraft / aircraft engines'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Printing equipment'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Healthcare/pharmaceutical assets'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Oil & gas assets'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Shipping assets / containers'
+	                  )
+	                )
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-success' },
+	            _react2.default.createElement(
+	              'a',
+	              { 'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collaps2', style: { textDecoration: "none" } },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-heading', style: { backgroundColor: _colors.teal100 } },
+	                _react2.default.createElement(
+	                  'h4',
+	                  { className: 'panel-title' },
+	                  'Hire Purchase'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { id: 'collaps2', className: 'panel-collapse collapse' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-body' },
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Businesses looking for straightforward financing and asset ownership should consider Hire Purchase. You spread the cost of the asset by paying instalments over the agreed term. This is followed by a final one-off purchase option fee transferring asset ownership to you at the end of the term.'
+	                ),
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  ' The Benefits of Hire Purchase:'
+	                ),
+	                _react2.default.createElement(
+	                  'ul',
+	                  { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Minimum capital outlay'
+	                    ),
+	                    ' – costs are spread over the term of the agreement.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Certainty of costs'
+	                    ),
+	                    ' – fixed monthly payments assist with budgeting.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Capital allowances'
+	                    ),
+	                    ' – your business can claim any available capital allowances.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'VAT'
+	                    ),
+	                    ' – VAT is not payable on the rentals. VAT relating to the asset purchase price is payable upfront when entering into the Hire Purchase agreement, however this is recoverable.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Asset ownership'
+	                    ),
+	                    ' – upon payment of the ‘purchase option fee’ your business will have title to the asset at the end of the term'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Tax reduction'
+	                    ),
+	                    ' – repayment interest can be offset against profits for taxation.'
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'We can tailor a Hire Purchase solution to suit your business and your budget.',
+	                  _react2.default.createElement('br', null),
+	                  'Call us today to see how Hire Purchase could help your business.'
+	                )
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-success' },
+	            _react2.default.createElement(
+	              'a',
+	              { 'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collaps3', style: { textDecoration: "none" } },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-heading', style: { backgroundColor: _colors.teal100 } },
+	                _react2.default.createElement(
+	                  'h4',
+	                  { className: 'panel-title' },
+	                  'Finance Lease'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { id: 'collaps3', className: 'panel-collapse collapse' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-body' },
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Finance Leases are ideal for businesses looking for immediate use of a new asset with minimal initial financial outlay. This allows you to use an asset for an agreed term in return for rental payments.'
+	                ),
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Benefits of Finance Leases:'
+	                ),
+	                _react2.default.createElement(
+	                  'ul',
+	                  { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Deferred VAT payments'
+	                    ),
+	                    ' – VAT is paid on your rentals rather than the upfront purchase price, which is paid by Corporate Asset Finance. VAT paid on your rentals is usually recoverable.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Operation'
+	                    ),
+	                    ' – your business remains in day-to-day control of the asset.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Asset use'
+	                    ),
+	                    ' – full use of the asset with no ownership responsibility.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Minimum capital outlay'
+	                    ),
+	                    ' – Corporate Asset Finance will fund up to 100% of the purchase price of the asset and the costs are spread over the lease term.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Flexible'
+	                    ),
+	                    ' – tailored to suit your business’s needs.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Tax reduction'
+	                    ),
+	                    ' – rentals can normally be offset against profits for taxation.'
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'We can tailor a Finance Lease solution to suit your business and your budget.',
+	                  _react2.default.createElement('br', null),
+	                  'Call us today to see how Finance Lease could help your business.'
+	                )
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-success' },
+	            _react2.default.createElement(
+	              'a',
+	              { 'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collaps4', style: { textDecoration: "none" } },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-heading', style: { backgroundColor: _colors.teal100 } },
+	                _react2.default.createElement(
+	                  'h4',
+	                  { className: 'panel-title' },
+	                  'Operating Lease'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { id: 'collaps4', className: 'panel-collapse collapse' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'panel-body' },
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Businesses looking to minimise the impact of new equipment acquisitions on their cashflow and manage asset risk should consider an Operating Lease.'
+	                ),
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Corporate Asset Finance will build in a residual value (a guaranteed future value) which will reduce the capital and interest charged during the lease term, reducing your monthly rentals and boosting your cashflow.'
+	                ),
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Benefits of Operating Leases:'
+	                ),
+	                _react2.default.createElement(
+	                  'ul',
+	                  { style: { listStyleType: "square", paddingLeft: "15px" } },
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Cashflow'
+	                    ),
+	                    ' – beneficial cashflow from reduced rentals.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Cost efficiency and improved profitability'
+	                    ),
+	                    ' – providing cheaper lending commitments compared to vanilla debt alternatives'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Tax Reduction'
+	                    ),
+	                    ' – rentals can normally be offset against profits for taxation.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Security and operational benefits'
+	                    ),
+	                    ' – you can return the asset at the end of its lease period, making it the ideal choice for project or contract work or those that need to upgrade assets regularly.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Off balance sheet'
+	                    ),
+	                    ' – the asset and associated funding can often be treated as off balance sheet.'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      'strong',
+	                      null,
+	                      'Flexibility'
+	                    ),
+	                    ' – an Operating Lease allows you to return the asset, purchase the asset at the current fair market value or consider a secondary rental agreement, giving your business great flexibility.'
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'We can tailor a Operating Lease solution to suit your business and your budget.',
+	                  _react2.default.createElement('br', null),
+	                  'Call us today to see how Operating Lease could help your business.'
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Turnover;
+	}(_react2.default.Component);
+
+	exports.default = Turnover;
+
+/***/ },
+/* 461 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40748,7 +41953,7 @@
 	                  _react2.default.createElement(
 	                    'a',
 	                    { href: '#' },
-	                    _react2.default.createElement('i', { className: 'fa fa-github' })
+	                    _react2.default.createElement('i', { className: 'fa fa-youtube' })
 	                  )
 	                )
 	              )

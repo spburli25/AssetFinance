@@ -64,7 +64,7 @@ export default class FooterAF extends React.Component {
                     <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href="#"><i className="fa fa-twitter"></i></a>
                     <a href="#"><i className="fa fa-linkedin"></i></a>
-                    <a href="#"><i className="fa fa-github"></i></a>
+                    <a href="#"><i className="fa fa-youtube"></i></a>
 
                   </div>
 

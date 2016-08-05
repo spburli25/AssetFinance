@@ -2,6 +2,7 @@ import React from 'react';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import {teal700} from 'material-ui/styles/colors';
 import AFComponent from './afcomponent.jsx';
+import CAFComponent from './caf.jsx';
 ""
 const styles = {
   tabColor : {backgroundColor : teal700},
@@ -45,11 +46,7 @@ export default class TabsExampleControlled extends React.Component {
         </Tab>
         <Tab label="Corporate Asset Finance" value="b"  style= {styles.tabColor}>
           <div>
-            <h2 style={styles.headline}>Corporate Finance</h2>
-            <p>
-              Corporate Asset Finance helps support your business objectives. We focus on delivering solutions to £100m+ turnover customers, with dedicated teams to support Global Corporates and Mid Market customers requiring asset funding solutions of £250,000 and above.
-            </p><br/>
-            <br/>
+            <CAFComponent/>
           </div>
         </Tab>
       </Tabs>

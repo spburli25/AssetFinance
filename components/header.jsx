@@ -13,7 +13,7 @@ import {teal900} from 'material-ui/styles/colors';
 export default class Nav extends React.Component {
    render() {
 
-     var LBGLogo = "../img/logo.jpg";
+     var LBGLogo = "../img/Bank2.png";
      const styles = {
       tabColor :{backgroundColor:teal900},
         smallIcon: {

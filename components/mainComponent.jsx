@@ -5,6 +5,7 @@ import Header from './header.jsx';
 import Navbar from './navbar.jsx';
 import Footer from './footer.jsx';
 
+
 export default class Tour extends React.Component{
   render(){
     return (
